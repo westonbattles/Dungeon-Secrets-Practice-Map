@@ -1,0 +1,2 @@
+execute as @e[type=marker,tag=secret_marker, tag=item] at @s unless entity @e[distance=..0.5,type=item_frame] run function secrets:helper/spawn_item_frame_no_marker
+execute as @e[type=marker,tag=secret_marker, tag=item] at @s as @n[distance=..0.5,type=item_frame] run data modify entity @s Item set value {id:"minecraft:white_stained_glass"}

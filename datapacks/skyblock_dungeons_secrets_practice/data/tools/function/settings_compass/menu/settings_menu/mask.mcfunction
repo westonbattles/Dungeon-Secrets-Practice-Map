@@ -1,0 +1,9 @@
+execute store result score #temp n run data get storage dungeon:current_room random_spawn
+
+$execute if score #temp n matches 0 run data modify storage ui mask set value [{Slot:12b,id:"minecraft:waxed_oxidized_copper_door","components":{"minecraft:custom_name":{"text":"Variation: $(variation)","bold":true},"minecraft:custom_data":{ui_item:{cmd:"function world:variations/next_variation with storage dungeon:current_room"}}}},{Slot:14b, id:"minecraft:crimson_door","components":{"minecraft:custom_name":[{"text":"Random Variations: ","bold":true},{"text":"Disabled","color":"red","bold":true}],"minecraft:custom_data":{ui_item:{cmd:"function tools:settings_compass/menu/settings_menu/enable_variations"}}}},{Slot:26b,id:"minecraft:barrier","components":{"minecraft:custom_model_data":2,"minecraft:custom_data":{ui_item:{empty:1b}}}}]
+
+$execute unless score #temp n matches 0 run data modify storage ui mask set value [{Slot:12b,id:"minecraft:waxed_oxidized_copper_door","components":{"minecraft:custom_name":{"text":"Variation: $(variation)","bold":true},"minecraft:custom_data":{ui_item:{cmd:"function world:variations/next_variation with storage dungeon:current_room"}}}},{Slot:14b, id:"minecraft:warped_door","components":{"minecraft:custom_name":[{"text":"Random Variations: ","bold":true},{"text":"Enabled","color":"green","bold":true}],"minecraft:lore":[{"color":"dark_gray","text":"renders variation setting useless"}],"minecraft:custom_data":{ui_item:{cmd:"function tools:settings_compass/menu/settings_menu/disable_variations"}}}},{Slot:26b,id:"minecraft:barrier","components":{"minecraft:custom_model_data":2,"minecraft:custom_data":{ui_item:{empty:1b}}}}]
+
+
+#storage dungeon:current_room random_spawn
+#data modify storage dungeon:current_room random_spawn set value 0

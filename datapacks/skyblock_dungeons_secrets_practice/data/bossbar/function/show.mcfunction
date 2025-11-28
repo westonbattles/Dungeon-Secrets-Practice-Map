@@ -1,0 +1,1 @@
+bossbar set minecraft:current_room players @p

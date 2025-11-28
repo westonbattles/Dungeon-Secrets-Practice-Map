@@ -1,0 +1,1 @@
+execute align xyz positioned ~0.5 ~ ~0.5 run summon interaction ~ ~ ~ {Tags:["secret_interaction","uncollected","chest"],width:0.88f,height:0.88f}

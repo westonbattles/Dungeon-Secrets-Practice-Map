@@ -1,0 +1,1 @@
+$data modify storage world:temp variation set from storage dungeon:$(room_id) variation

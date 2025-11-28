@@ -1,0 +1,1 @@
+$bossbar set current_room value $(secrets_found)

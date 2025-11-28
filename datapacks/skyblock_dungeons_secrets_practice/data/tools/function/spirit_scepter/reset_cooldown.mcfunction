@@ -1,0 +1,2 @@
+execute store result score #reset cooldown.spirit_scepter run time query gametime
+execute as @a if score @s cooldown.spirit_scepter = #reset cooldown.spirit_scepter run advancement revoke @s only tools:spirit_scepter_used

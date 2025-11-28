@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "custom_data": {
+                    "ui":true
+                },
+                "custom_name": {
+                    "text": "Settings",
+                    "italic": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

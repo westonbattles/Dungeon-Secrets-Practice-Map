@@ -1,0 +1,2 @@
+#execute as @p unless score @s moved matches 0.. if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"movement":{"horizontal_speed":{"min":0.01}}}} run function world:started
+execute as @p unless score @s moved matches 0.. if function world:movement_start/check run function world:started

@@ -1,0 +1,1 @@
+return run data modify storage world:temp start_pos set from entity @s Pos

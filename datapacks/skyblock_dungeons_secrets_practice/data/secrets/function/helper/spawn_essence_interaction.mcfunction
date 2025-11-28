@@ -1,0 +1,1 @@
+execute align xyz positioned ~0.5 ~ ~0.5 run summon interaction ~ ~ ~ {Tags:["secret_interaction","uncollected","essence"],width:0.505f,height:0.505f}

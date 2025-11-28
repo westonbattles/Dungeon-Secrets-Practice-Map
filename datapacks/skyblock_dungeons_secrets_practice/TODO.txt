@@ -1,0 +1,6 @@
+automatically update/save positions somewhow?
+
+next room selection method (random or sequential)
+
+when doing selected rooms, add a item to hotbar that lets you go to next room
+(and maybe get rid of skipping room when you finish)

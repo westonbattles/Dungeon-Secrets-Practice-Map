@@ -1,0 +1,1 @@
+execute align xyz run summon minecraft:interaction ~.5 ~-.99 ~.5 {Tags:["room_selection_interaction"]}

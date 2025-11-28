@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "components": {
+            "item_model": "allium"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tools:spirit_scepter/use"
+  }
+}

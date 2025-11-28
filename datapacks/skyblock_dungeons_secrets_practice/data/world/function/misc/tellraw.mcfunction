@@ -1,0 +1,1 @@
+$tellraw @s {"bold":true,"click_event":{"action":"copy_to_clipboard","value":"tp @p $(x) $(y) $(z) $(pitch) $(yaw)"},"text":"Click to Copy Position Command!","underlined":true}

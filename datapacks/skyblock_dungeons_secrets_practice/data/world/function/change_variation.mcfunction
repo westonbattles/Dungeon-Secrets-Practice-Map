@@ -1,0 +1,1 @@
+$data modify storage dungeon:$(room_id) variation set value $(variation)

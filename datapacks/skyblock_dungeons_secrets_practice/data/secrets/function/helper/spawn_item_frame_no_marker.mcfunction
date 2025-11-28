@@ -1,0 +1,1 @@
+execute align xyz positioned ~0.5 ~ ~0.5 run summon item_frame ~ ~ ~ {Facing:1b,Invulnerable:1b,Item:{id:"minecraft:white_stained_glass",count:1}}

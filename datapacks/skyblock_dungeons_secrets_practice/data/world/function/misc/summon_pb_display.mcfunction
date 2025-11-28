@@ -1,0 +1,2 @@
+#input: {room_id:"asdkjlka"}
+$execute align xyz positioned ~0.5 ~.4 ~0.99 run summon text_display ~ ~ ~ {text:{"color":"#CFCFCF","text":"PB:\n","italic":1b},Rotation:[180f,0f],Tags:["pb_display","$(room_id)"]}

@@ -1,0 +1,1 @@
+return run function world:misc/selected_rooms_storage_rmstr/loop_nest_2 with storage world:temp

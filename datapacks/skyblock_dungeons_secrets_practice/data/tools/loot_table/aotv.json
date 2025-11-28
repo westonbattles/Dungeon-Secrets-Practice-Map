@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "aotv",
+                "minecraft:food": {
+                    "nutrition": 0,
+                    "saturation": 0,
+                    "can_always_eat": true
+                },
+                "consumable": {
+                    "consume_seconds": 2147483648,
+                    "animation": "none"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+scoreboard players set #actionbar run_timer 0

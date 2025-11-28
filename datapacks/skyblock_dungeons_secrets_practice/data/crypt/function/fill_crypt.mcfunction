@@ -1,0 +1,1 @@
+$fill $(x_min) $(y_min) $(z_min) $(x_max) $(y_max) $(z_max) air

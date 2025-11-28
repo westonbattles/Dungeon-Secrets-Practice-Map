@@ -1,0 +1,1 @@
+execute at @p as @e[distance=..6, type=interaction,tag=room_selection_interaction] if data entity @s interaction at @s run function world:room_selection/selected

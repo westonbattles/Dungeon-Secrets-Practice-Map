@@ -1,0 +1,2 @@
+execute store result score #reset cooldown.return_barrier run time query gametime
+execute as @a if score @s cooldown.return_barrier = #reset cooldown.return_barrier run advancement revoke @s only tools:return_barrier

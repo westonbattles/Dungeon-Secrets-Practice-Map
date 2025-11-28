@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:diamond_sword"
+        },
+        "player": {
+          "type_specific": {
+			"type": "minecraft:player",
+			"input": {
+				"sneak": false
+			}
+		}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tools:aotv/teleport"
+  }
+}
