@@ -6,7 +6,8 @@ function world:timer/action_bar/stop
 function world:timer/action_bar/hide
 
 clear @s
-effect clear @s speed
+loot give @s loot tools:aotv
+#effect clear @s speed
 function bossbar:hide
 playsound entity.enderman.teleport ambient @s ~ ~ ~
 $tp @s $(x) $(y) $(z) $(pitch) $(yaw)

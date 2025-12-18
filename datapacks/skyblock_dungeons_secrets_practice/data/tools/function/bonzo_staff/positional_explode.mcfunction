@@ -1,0 +1,2 @@
+summon firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:firework_rocket,count:1,components:{fireworks:{flight_duration:3,explosions:[{shape:"small_ball",has_twinkle:0b,has_trail:0b,colors:[I;1973019,4312372,14602026]}]}}}}
+execute as @p run function tools:bonzo_staff/launch

@@ -1,0 +1,1 @@
+execute align xyz positioned ~0.5 ~-.99 ~0.5 run summon interaction ~ ~ ~ {Tags:["room_selection_interaction"]}

@@ -12,8 +12,8 @@ $function world:start/$(room_id)
 # Fill players inventory
 function world:misc/fill_inventory_from_chest with storage world:chest_location
 
-# Make sure player has speed 2
-effect give @s speed infinite 2 true
+# Make sure player has speed
+effect give @s speed infinite 6 true
 
 # Get ready to start player timers
 scoreboard players reset @s moved

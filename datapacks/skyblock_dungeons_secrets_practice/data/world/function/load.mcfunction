@@ -3,6 +3,7 @@ scoreboard players set #100 n 100
 scoreboard players set #tickspersecond n 20
 
 attribute @p minecraft:entity_interaction_range base set 4.5
+attribute @p minecraft:block_interaction_range base set 4.5
 effect give @a night_vision infinite 255 true
 
 scoreboard objectives add moved dummy

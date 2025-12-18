@@ -1,0 +1,2 @@
+execute store result score #reset cooldown.bonzo_staff run time query gametime
+execute as @a if score @s cooldown.bonzo_staff = #reset cooldown.bonzo_staff run advancement revoke @s only tools:bonzo_staff_used

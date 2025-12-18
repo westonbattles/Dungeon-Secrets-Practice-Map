@@ -1,0 +1,5 @@
+tp @p -124 -5 157 -90 0
+execute if data storage dungeon:2x2_flags {variation:1} run tp @p -120.5589789023561 -5 189.5149225958282 -89.24972534179688 -.599993526935577
+execute if data storage dungeon:2x2_flags {variation:2} run tp @p -77.42462049689566 -5 203.50873955621256 179.7001495361328 -.9000044465065
+execute if data storage dungeon:2x2_flags {variation:3} run tp @p -65.38902823055548 -5 157.44947908249483 89.55026245117188 .150024726986885
+return 1
