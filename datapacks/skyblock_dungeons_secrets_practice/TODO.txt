@@ -2,5 +2,10 @@ automatically update/save positions somewhow?
 
 next room selection method (random or sequential)
 
-when doing selected rooms, add a item to hotbar that lets you go to next room
+practice ALL rooms
+
+when doing selected rooms, add a item to hotbar that lets you go to next room (or go back to prev room)
 (and maybe get rid of skipping room when you finish)
+
+aotv 1.8.9 vs 1.21.10 eye height setting
+
